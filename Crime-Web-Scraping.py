@@ -124,14 +124,7 @@ df1_encoded = pd.get_dummies(df1, columns=['County'], drop_first=False)
 df1_encoded = df1_encoded.astype(int)
 print(df1_encoded)
 
-
-# In[28]:
-
-
 print(df2.dtypes)
-
-
-# In[29]:
 
 
 df2['City/Agency'] = df2['City/Agency'].astype('category')
